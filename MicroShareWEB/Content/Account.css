@@ -1,0 +1,139 @@
+﻿
+.header_second span:last-of-type img
+{
+    display: block;
+}
+
+.box
+{
+    /*border: 1px solid red;*/
+    position: absolute;
+    z-index: 100;
+    width: 670px;
+    height: 300px;
+    background: white;
+    /*top: calc(50% - 150px);
+    left: calc(50% - 335px);*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*translate()使用百分比，让元素移动是相对于自身的宽度和高度*/
+    padding: 10px;
+    /*box-shadow:10px;*/
+}
+
+    .box > .icon
+    {
+        border-bottom: 1px solid;
+        /*text-align: center;*/
+        overflow: hidden;
+        height: 50px;
+        line-height: 50px;
+        font-size: 22px;
+        color: #7c7c7c;
+    }
+
+.icon > img, .fenge
+{
+    float: left;
+    position: relative;
+    top: 50%;
+    margin-left: 10px;
+    transform: translate(0, -50%);
+}
+
+.icon > span
+{
+    border-left: 1px solid;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.icon > label
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0); /*translate()使用百分比，让元素移动是相对于自身的宽度和高度*/
+}
+
+.contain
+{
+    /*border: 1px solid red;*/
+    width: 280px;
+    height: 182px;
+    margin: 30px auto;
+}
+
+    .contain ul
+    {
+        list-style: none;
+    }
+
+    .contain li
+    {
+        /*overflow: hidden;*/
+        color: #7c7c7c;
+        font-size: 16px;
+        /*border:1px solid green;*/
+    }
+
+    .contain label
+    {
+        float: left;
+        line-height: 26px;
+        width: 70px;
+        font-family: '微软雅黑';
+        margin-top: 20px;
+    }
+
+    .contain div
+    {
+        float: right;
+        border: 1px solid;
+        /*padding-left:3px;*/
+        height: 26px;
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .contain input[type=text], .contain img, .contain span
+    {
+        float: left;
+        position: relative;
+        top: 50%;
+        transform: translate(0,-50%);
+    }
+     .contain img
+    {
+        
+        margin-left: 3px;
+    }
+    .contain span
+    {
+       
+        border-left: 1px solid;
+        height: 12px;
+        margin-left: 6px;
+    }
+
+    .contain input
+    {
+        padding-left: 3px;
+        outline: none;
+        border: none;
+        width: 170px;
+    }
+        .contain input[name="lastname"]
+        {
+            width:100%;
+        }
+    .contain input[type=button]
+    {
+        background-color: #3cbaff;
+        margin-top: 20px;
+        height: 32px;
+        width: 148px;
+        border-radius: 20px;
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
+    }

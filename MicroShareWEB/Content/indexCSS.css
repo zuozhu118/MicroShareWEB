@@ -1,0 +1,49 @@
+.block {
+  margin-top: 5px;
+}
+.block span {
+  display: block;
+  margin-top: 10px;
+}
+
+.header {
+  color: orange;
+  margin-top: 20px;
+}
+.header span {
+  display: block;
+  margin-top: 30px;
+}
+
+.mt, .block, .block span, .header, .header span {
+  margin-top: 3px;
+}
+
+.block span {
+  display: block;
+}
+
+.header {
+  color: orange;
+}
+.header span {
+  display: block;
+}
+
+.block, .block span, .header, .header span {
+  padding-top: 6px;
+  margin-top: 6px;
+}
+
+.block span {
+  display: block;
+}
+
+.header {
+  color: orange;
+}
+.header span {
+  display: block;
+}
+
+/*# sourceMappingURL=indexCSS.css.map */

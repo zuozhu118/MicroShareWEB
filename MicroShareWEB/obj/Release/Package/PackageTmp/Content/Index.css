@@ -1,0 +1,162 @@
+﻿.header_second span:first-of-type img
+{
+    display: block;
+}
+
+*
+{
+   
+    box-sizing:border-box;
+}
+
+p
+{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    line-height:1.8;
+    text-indent: 2em;
+    /*border: 1px solid red;*/
+}
+
+li
+{
+    list-style: none;
+}
+
+h2
+{
+    text-align: center;
+    color: #333333;
+    font-weight: 100;
+    height: 50px;
+    margin-top: 49px;
+    margin-bottom: 20px;
+}
+
+.about
+{
+    height: 46px;
+    line-height: 46px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid;
+    margin-top: 46px;
+    margin-bottom: 78px;
+}
+
+.share
+{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+
+.share .inline
+{
+    float: left;
+    cursor: pointer;
+    height: 0;
+    padding-top: 33.33%;
+    width: 33.33%;
+    background-size: cover;
+    /*transition: all ease-in 0.1s;*/
+}
+
+    .share .inline:hover
+    {
+        background-size: cover;
+    }
+
+.li1
+{
+    background: url('/Img/1414.png') no-repeat left 20% bottom 0;
+}
+
+.li2
+{
+    background: url('/Img/1414.png') no-repeat left 60% bottom 0;
+}
+
+.li3
+{
+    background: url('/Img/1414.png') no-repeat left 100% bottom 0;
+}
+
+.li1:hover
+{
+    background: url('/Img/1414.png') no-repeat left 0 bottom 0;
+}
+
+.li2:hover
+{
+    background: url('/Img/1414.png') no-repeat left 40% bottom 0;
+}
+
+.li3:hover
+{
+    background: url('/Img/1414.png') no-repeat left 80% bottom 0;
+}
+
+.root
+{
+    /*width: 131px;
+    height: 131px;*/
+    width:10%;
+    height: 0;
+    padding-top: 10%;
+    /*border:1px solid;*/
+    position: absolute;
+    top:15%;
+    /*bottom: 280px;*/
+    background: #cff8fd;
+    transform-origin:left bottom;
+    transform: rotate(-45deg);
+    border-radius: 10px;
+}
+
+.share .rot1
+{
+    left: 33.33%;
+}
+
+.rot2
+{
+    left: 66.66%;
+}
+
+.lastpart
+{
+    margin:60px auto 55px auto;
+    width: 80%;
+    /*border: 1px solid blue;*/
+    overflow:hidden;
+}
+
+    .lastpart .flex
+    {
+        display: flex;
+        align-items:center;
+    }
+    .flex img
+    {
+        margin-right: 10px;
+    }
+.fl1
+{
+    float:left;
+}
+.fl2
+{
+     position:absolute;
+     left:50%;
+     transform:translate(-50%,0);
+}
+.fl3
+{
+    float:right;
+}

@@ -1,0 +1,121 @@
+﻿
+.header_second span:nth-of-type(2) img
+{
+    display: block;
+}
+
+.part1
+{
+    display: flex;
+    justify-content: space-between;
+    /*width: 1200px;*/
+    width: 70%;
+    margin: 70px auto 150px;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+
+    .part1 > div
+    {
+        /*border:1px solid;*/
+        text-align: center;
+    }
+
+
+.fl
+{
+    float: left;
+}
+
+.fr
+{
+    float: right;
+}
+
+.part2
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*overflow: hidden;*/
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    /*border: 1px solid green;*/
+    margin-bottom: 80px;
+}
+
+.qiuzhidao
+{
+    /*border: 2px solid blue;*/
+    width: 50%;
+    left: 0;
+    min-height: 70%;
+    color: #9a9a9a;
+    font-size: 14px;
+}
+
+    .qiuzhidao > *
+    {
+        margin-top: 10%;
+    }
+
+.simple_h3
+{
+    font-size: 23px;
+    color: #5d5d5d;
+    /*margin-top: 45px;*/
+}
+
+.qiuzhidao_p
+{
+    /*margin-top: 75px;*/
+}
+
+.qiuzhidao button
+{
+    width: 152px;
+    height: 46px;
+    cursor: pointer;
+    border: 1px solid #7ac8ff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 46px;
+    color: #41a6ff;
+    font-size: 22px;
+    letter-spacing: 2px;
+    /*margin-top: 108px;*/
+}
+.sys_left
+{
+    width:90%;
+    /*border:1px solid red;*/
+}
+    .sys_left img
+    {
+        max-width:100%;
+    }
+.shouji
+{
+    /*border: 2px solid red;*/
+    width: 40%;
+}
+
+    .shouji img
+    {
+        max-width: 100%;
+        min-height: 300px;
+    }
+
+.sharezhihui
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+    .part3 img
+    {
+        max-width: 100%;
+    }

@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "Account";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/Account.css" rel="stylesheet" />
+<div class="banner">
+    <img src="~/Img/Account/Account_bg.png" />
+</div>
+<div class="box">
+    <p class="icon">
+        <img src="~/Img/Account/icon_1.png" /><img src="~/Img/Account/icon_2.png" />
+        <span class="fenge"></span>
+        <label>后台管理系统</label>
+    </p>
+    <div class="contain">
+        <ul>
+            <li>
+                <label>用户名：</label>
+                <div>
+                    <img src="~/Img/Account/man.png" /><span></span><input type="text" name="name" value=" " />
+                </div>
+            </li>
+            <li>
+                <label>密&nbsp;&nbsp;&nbsp;码：</label>
+                <div>
+                    <img src="~/Img/Account/lock.png" /><span></span><input type="text" name="name" value=" " />
+                </div>
+            </li>
+            <li>
+                <label>验证码：</label>
+                <div>
+                    <input type="text" name="lastname" value=" " />
+                    <input type="button" name="name" value="登录系统" />
+                </div>
+
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    //var person = {
+    //    name: "test"
+    //};
+
+    //var proxy = new Proxy(person, {
+    //    get: function (target, property) {
+    //        if (property in target) {
+    //            return target[property];
+    //        } else {
+    //            throw new ReferenceError("Property \"" + property + "\" does not exist.");
+    //        }
+    //    }
+    //});
+    //alert(proxy.age);
+
+    //---------------------------
+    //var handler = {
+    //        defineProperty (target, key, descriptor) {
+    //        return false;
+    //    }
+    //};
+    //var target = {};
+    //var proxy = new Proxy(target, handler);
+    //proxy.foo = 'bar';
+    //alert(proxy.foo);
+
+
+    //-----------闭包和Iterator--------------------
+    //var it = makeIterator(['a', 'b']);
+
+    //function makeIterator(array) {
+    //    var nextIndex = 0;
+    //    return {
+    //        next: function () {
+    //            return nextIndex < array.length ? { value: array[nextIndex++], done: false } : { value: undefined, done: true };
+    //        }
+    //    };
+    //}
+    //var result = it.next();
+    //console.log(result);
+</script>

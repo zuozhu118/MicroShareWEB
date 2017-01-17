@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/LayoutStyle.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_first">
+            <img src="~/Img/icon.png" /><div>微乐享</div>
+        </div>
+        <div class="header_second">
+            <span>
+                <a href="/MicroShareIndex/Index" >首页</a>
+                <img src="~/Img/tiaotiao.png" />
+            </span>
+            <span>
+                <a href="/MicroShareIndex/AboutAPP" >关于APP</a>
+                 @*<a href="javascript:void(0)">关于APP</a>*@
+                <img src="~/Img/tiaotiao.png" />
+            </span>
+            <span>
+                <a href="/MicroShareIndex/Account" >后台登陆</a>
+                <img src="~/Img/tiaotiao.png" />
+            </span>
+        </div>
+    </header>
+
+   <div id="main">
+        @RenderBody()   
+   </div>
+
+    <footer>
+       <span> ©2014 Copyright  武汉喻天科技有限公司  版权所有  鄂ICP备案14018985号-1</span>
+    </footer> 
+
+     
+  @*  <script>
+        var index = 0;
+        window.onload = function () {
+            
+            var aLink = $('a'); //document.querySelectorAll('a');
+            aLink.eq(index).siblings().css('display', 'block');
+            for (var i = 0; i < aLink.length; i++) {
+                aLink[i].onclick = function () {
+                    var thisindex = $(this).index('a');//获取当前点击的a标签的索引；
+                    aLink.eq(index).siblings().css('display', 'none');
+                    aLink.eq(thisindex).siblings().css('display', 'block');
+                    index = thisindex;
+                    //return false;
+                }; 
+            }
+        };
+    </script>    *@
+</body>
+</html>
